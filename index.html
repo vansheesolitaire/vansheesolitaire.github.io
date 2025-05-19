@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Vanshee Solitaire</title>
-    <script>
-        const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-        window.onload = function() {
-            const style = document.getElementById('vansheeFrame').style;
-            style.height = (vh - 4) + 'px';
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
         }
-    </script>
+    </style>
 </head>
 <body style="margin:0;">
-  <h1>Vanshee Solitaire</h1>
-  <a href="/maintenance"><h2>Click here for Maintenance</h2></a>
+    <div class='container'>
+        <h1>Vanshee Solitaire</h1>
+        <a href="/maintenance"><h2>Click here for Maintenance</h2></a>
+    </div>
 </body>
 </html>
